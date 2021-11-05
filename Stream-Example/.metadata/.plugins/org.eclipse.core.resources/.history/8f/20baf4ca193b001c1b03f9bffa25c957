@@ -1,0 +1,29 @@
+package com.ujwal.stu;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Sort_Student_BasedOn_Marks {
+
+	public static void main(String[] args) {
+		
+		List<Student> sList=new ArrayList();
+		
+	}
+	
+	
+	
+	
+	public static void populate(List<Student> slist) {
+		
+		slist.add(new Student(105,"ujwal",95));
+		slist.add(new Student(110,"ravi",65));
+		slist.add(new Student(108,"sohan",55));
+		slist.add(new Student(106,"mohan",25));
+		slist.add(new Student(103,"sudha",35));
+		slist.add(new Student(125,"kundan",40));
+		slist.add(new Student(101,"rahul",40));
+		slist.add(new Student(103,"dimple",10));
+	}
+
+}

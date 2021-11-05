@@ -1,0 +1,10 @@
+package com.ujwal.dep;
+
+public class HrDepartmentStatus_Active {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

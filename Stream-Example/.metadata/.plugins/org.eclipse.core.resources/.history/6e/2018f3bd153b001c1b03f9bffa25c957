@@ -1,0 +1,24 @@
+package com.ujwal.dep;
+
+import java.util.ArrayList;
+
+public class HrDepartmentStatus_Active {
+
+	public static void main(String[] args) {
+
+		ArrayList<Employee> empList=new ArrayList();
+		
+		
+	}
+	
+	
+	
+	
+	
+	public static void populate(ArrayList<Employee> eList) {
+		
+		
+		
+	}
+
+}

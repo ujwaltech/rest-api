@@ -1,0 +1,31 @@
+package com.ujwal.dep;
+
+import java.util.ArrayList;
+
+public class HrDepartmentStatus_Active {
+
+	public static void main(String[] args) {
+
+		ArrayList<Employee> empList=new ArrayList();
+		
+		
+	}
+	
+	
+	
+	
+	
+	public static void populate(ArrayList<Employee> eList) {
+		
+		
+		eList.add(new Employee(101,"ujwal","IT","active"));
+		eList.add(new Employee(102,"kundan","it","active"));
+		eList.add(new Employee(103,"pooja","hr","leave"));
+		eList.add(new Employee(104,"anuj","manager","active"));
+		eList.add(new Employee(105,"sudha","hr","active"));
+		eList.add(new Employee(106,"pinky","hr","active"));
+		eList.add(new Employee(107,"dimple","tester","active"));
+		eList.add(new Employee(108,"preety","hr","leave"));
+	}
+
+}
