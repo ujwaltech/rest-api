@@ -1,0 +1,16 @@
+package com.ujwal.response.binding;
+
+public class Ticket {
+	
+	private int age;
+	private String flightNumber ;
+	private String  from;
+	private String  name;
+	private double price;
+	private String  status;
+	private String to ;
+	private String  travelDate;
+	
+	
+
+}

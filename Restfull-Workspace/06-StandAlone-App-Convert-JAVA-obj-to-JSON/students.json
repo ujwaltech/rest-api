@@ -1,0 +1,11 @@
+[ {
+  "sid" : 501,
+  "sname" : "sumit",
+  "student-course" : "python",
+  "studentAge" :35
+}, {
+  "sid" : 601,
+  "sname" : "rahul",
+  "student-course" : "android",
+  "studentAge" :26
+} ]

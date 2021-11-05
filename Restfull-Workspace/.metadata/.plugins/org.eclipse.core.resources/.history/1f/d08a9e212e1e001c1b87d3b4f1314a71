@@ -1,0 +1,30 @@
+package com.ujwal.client;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.reactive.function.client.WebClient;
+
+@Service
+public class MyClient {
+	
+	private static  String END_POINT_URL="http://localhost:9595/currencyexchange/From/{from}/To/{to}";
+	
+	public void invokeRestApi(String from,String to) {
+		
+		
+		WebClient webClient = WebClient.create();
+		
+		     String response = webClient.get()
+		                      .uri(END_POINT_URL,from,to)
+		                      .retrieve()
+		                      .bodyToMono(String.class)
+		                      .block();
+		     
+		     System.out.println("***********Response started**************");
+		     
+		     System.out.println(response);
+		     
+		     System.out.println("***********Response Ended**************");
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.ujwal.request.binding;
+
+public class PassengerInfo {
+
+}

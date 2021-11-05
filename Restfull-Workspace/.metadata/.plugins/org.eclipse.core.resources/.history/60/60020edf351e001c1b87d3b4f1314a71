@@ -1,0 +1,37 @@
+package com.ujwal.client;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.reactive.function.client.WebClient;
+
+import com.ujwal.ressponse.binding.CurrencyResponse;
+
+@Service
+public class MyClient {
+	
+	private static  String END_POINT_URL="http://localhost:9595/currencyexchange/From/{from}/To/{to}";
+	
+	public void invokeRestApiAshronous(String from,String to) {
+		
+		
+		WebClient webClient = WebClient.create();
+		System.out.println("***********Response started**************");
+										
+										webClient.get()
+		            					.uri(END_POINT_URL,from,to)
+		            					.retrieve()
+		            					.bodyToMono(CurrencyResponse.class)
+		            					.subscribe();
+		     
+		System.out.println("***********Response Ended**************");  
+		
+		public static void  handleAshronousResponse(CurrencyResponse responce) {
+			 System.out.println(response);
+		}
+		     
+		    
+		     
+		     
+		
+	}
+
+}

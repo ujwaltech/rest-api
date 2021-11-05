@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<student standard="9th">
+    <student-id>101</student-id>
+    <student-name>Kabir</student-name>
+    <student-gen>m</student-gen>
+    <student-city>Delhi</student-city>
+</student>
