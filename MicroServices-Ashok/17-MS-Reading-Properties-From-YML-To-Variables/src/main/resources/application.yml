@@ -1,0 +1,7 @@
+server:
+  port: 6565
+  
+
+demo: 
+   welcomeMsg: Hello,How are you miss.....??
+   greetMsg:  Hi,good Morning......

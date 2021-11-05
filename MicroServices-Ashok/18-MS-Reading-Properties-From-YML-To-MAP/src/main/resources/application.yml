@@ -1,0 +1,9 @@
+server:
+  port: 6565
+  
+
+demo2: 
+   properties:
+       welcomeMsg: Hello,How are you miss.....??
+       greetMsg:  Hi,good Morning......
+       testMsg: this is Test MSG dear..

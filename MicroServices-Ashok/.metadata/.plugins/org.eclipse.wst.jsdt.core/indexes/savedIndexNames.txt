@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+E:\MicroServices-Ashok\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2140250548.index
+1033766673.index
+1360848909.index
+806689878.index
+1482827772.index
+3812471796.index

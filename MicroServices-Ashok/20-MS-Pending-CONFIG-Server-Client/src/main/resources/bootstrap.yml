@@ -1,0 +1,20 @@
+management:
+  security:
+    enabled: false
+    
+server:
+  port: 2222
+  
+spring:
+  application:
+    name: Config-client
+    
+    
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:1111
+ 
+ 
+  profiles:
+    active: prod

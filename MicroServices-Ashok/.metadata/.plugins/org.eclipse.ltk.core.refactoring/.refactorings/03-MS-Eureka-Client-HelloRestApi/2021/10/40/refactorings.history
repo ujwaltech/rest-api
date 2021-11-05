@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;03-MS-Eureka-Client-HelloRestApi/src/main/resources/application.yml&apos; to &apos;application1.yml&apos;" description="Rename resource &apos;application.yml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/application.yml" name="application1.yml" stamp="1633179164026" updateReferences="true"/>
+</session>

@@ -1,0 +1,5 @@
+server:
+  port: 4646
+spring:  application:    name: DISTRIBUTED-LOGGING-APPLICATION
+    
+    

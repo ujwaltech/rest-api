@@ -1,0 +1,7 @@
+server:
+  port: 7575
+  
+spring:  application:    name: Client-1
+      boot:    admin:      client:        url: http://localhost:8888
+management:  endpoints:    web:      exposure:        include: '*'        
+  

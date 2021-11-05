@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+E:\MicroServices-Ashok\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3500914904.index
+\09-MS-StockCalculation-UI-WebClient\src\main\java
